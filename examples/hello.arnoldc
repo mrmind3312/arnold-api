@@ -1,0 +1,16 @@
+// ArnoldAPI extension: routes use ArnoldC-style statements.
+IT'S SHOWTIME
+
+ROUTE "GET" "/"
+TALK TO THE HAND "Hasta la vista, API!"
+ENOUGH TALK
+
+ROUTE "GET" "/hello/<name>"
+TALK TO THE HAND "Hello from ArnoldAPI"
+ENOUGH TALK
+
+ROUTE "GET" "/health"
+RETURN JSON "{\"status\": \"ok\", \"runtime\": \"ArnoldAPI\"}"
+ENOUGH TALK
+
+YOU HAVE BEEN TERMINATED
